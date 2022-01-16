@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './components/header/Header'
+import Login from './components/pages/Login'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(
-  <Header title="Lead Collector login"/>
+  <Login/>
   ,
   document.getElementById('root')
 );
-
